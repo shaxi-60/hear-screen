@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# 构建产物
+build/
+build_*/
+dist/
+dist_*/
+*.spec
+
+# 运行时数据（含加密后的 API Key、日志）
+data/
+config.json
+selftest.json
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
